@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src = "script.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+
+    
     <title>Rock, Paper, Scissors</title>
+    <h1 id = "title">ROCK, PAPER, SCISSORS</h1>
+    <h2 class = 'title'> You vs. The Computer...</h2>
 </head>
 <body>
-    
+<div id = "main">
+    <div class = "player-title">
+        <h2>Player, take your pick!</h2>    
+    </div>
+<div id = "container">
+    <div class = "button">
+        <button class = "rock-button">ROCK</button>
+    </div>
+    <div class = "button">
+        <button class = "paper-button">PAPER</button>
+    </div>
+    <div class = "button">
+        <button class = "scissors-button">SCISSORS</button>
+    </div>
+
+        <div class = "score">
+        
+        </div>
+
+    <div id = "refresh">
+        <button class = "play-again" onclick="window.location.reload();">Play Again?</button>
+    </div>
+</div>    
+</div>
 </body>
 </html>
+
+<script src = "script.js"></script>
